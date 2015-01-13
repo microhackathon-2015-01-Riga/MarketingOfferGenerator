@@ -1,4 +1,4 @@
-package com.ofg.marketingoffer.model;
+package com.ofg.marketingoffer.rest;
 
 public class Person {
     

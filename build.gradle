@@ -34,6 +34,8 @@ ext {
     jacksonMapper = '1.9.13'
     aspectjVersion = '1.8.3'
     microInfraSpringVersion = '0.8.2'
+    fongoVersion = "1.5.9"
+    springDataMongoDBVersion = "1.6.1.RELEASE"
 }
 
 uploadArchives {
@@ -97,6 +99,8 @@ dependencies {
     compile ("com.ofg:micro-infra-spring-boot-starter:$microInfraSpringVersion") {
         exclude module: 'micro-infra-spring-config'
     }
+    compile "com.github.fakemongo:fongo:$fongoVersion"
+    compile "org.springframework.data:spring-data-mongodb:$springDataMongoDBVersion"
 
     runtime 'cglib:cglib-nodep:3.1'
     runtime 'org.objenesis:objenesis:2.1'
