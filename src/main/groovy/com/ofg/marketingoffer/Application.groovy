@@ -11,7 +11,6 @@ import static com.ofg.config.BasicProfiles.*
 @TypeChecked
 @SpringBootApplication
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-//@EnableCaching
 @EnableAsync
 class Application {
 
