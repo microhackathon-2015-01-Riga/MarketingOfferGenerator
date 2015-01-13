@@ -42,7 +42,7 @@ uploadArchives {
             authentication(userName: 'admin', password: 'admin123')
         }
         pom.version = currentVersion
-        pom.artifactId = 'loan-application-decision-maker'
+        pom.artifactId = 'marketing-offer-generator'
         pom.groupId = 'com.ofg'
     }
 }
