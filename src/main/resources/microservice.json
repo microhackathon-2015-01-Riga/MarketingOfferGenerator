@@ -1,10 +1,7 @@
 {
     "pl": {
-        "this": "com/ofg/twitter-places-analyzer",
+        "this": "com/ofg/marketing-offer-generator",
         "dependencies": {
-            "collerator": {
-                "path": "com/ofg/twitter-places-collerator"
-            }
         }
     }
 }
