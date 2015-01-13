@@ -7,7 +7,7 @@ city.finding.service.url: "http://api.openweathermap.org/data/2.5/weather"
 
 metrics.path:
   country: pl
-  app: fraud-detection-service
+  app: loan-application-decision-maker
   environment: prod
 
 stubrunner.stubs:
@@ -19,4 +19,4 @@ graphite:
     host: "graphite.hackathon.dev.4finance.net"
     port: 2003
     
-server.port: 8051
+server.port: 8052

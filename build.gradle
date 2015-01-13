@@ -42,7 +42,7 @@ uploadArchives {
             authentication(userName: 'admin', password: 'admin123')
         }
         pom.version = currentVersion
-        pom.artifactId = 'fraud-detection-service'
+        pom.artifactId = 'loan-application-decision-maker'
         pom.groupId = 'com.ofg'
     }
 }
