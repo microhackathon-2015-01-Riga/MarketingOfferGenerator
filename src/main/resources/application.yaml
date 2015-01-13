@@ -7,10 +7,16 @@ city.finding.service.url: "http://api.openweathermap.org/data/2.5/weather"
 
 metrics.path:
   country: pl
-  app: service-name
+  app: loan-application-service
+  environment: prod
 
 stubrunner.stubs:
-  repository.root: "http://dl.bintray.com/4finance/micro"
+  repository.root: "http://nexus.hackathon.dev.4finance.net:8081/nexus/content/repositories/releases/"
   group: com.ofg
-  module: stub-runner-examples
+  module: stub-definitions
 
+graphite:
+    host: "graphite.hackathon.dev.4finance.net"
+    port: 2003
+    
+server.port: 8055
